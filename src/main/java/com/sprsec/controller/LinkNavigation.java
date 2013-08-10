@@ -21,22 +21,22 @@ public class LinkNavigation {
 		return new ModelAndView("home");
 	}
 	
-	@RequestMapping(value="/sec/moderation", method=RequestMethod.GET)
-	@Secured("ROLE_MGR_HOME")
+	@RequestMapping(value="/manager/home", method=RequestMethod.GET)
+	@Secured("ROLE_PG_MGR_HOME")
 	public ModelAndView moderatorPage() {
-		return new ModelAndView("moderation");
+		return new ModelAndView("mgr-home");
 	}
 	
-	@RequestMapping(value="/admin/first", method=RequestMethod.GET)
-	@Secured("ROLE_PG_HOME")
+	@RequestMapping(value="/employee/home", method=RequestMethod.GET)
+	@Secured("ROLE_PG_EMP_HOME")
 	public ModelAndView firstAdminPage() {
-		return new ModelAndView("admin-first");
+		return new ModelAndView("emp-home");
 	}
 	
-	@RequestMapping(value="/admin/second", method=RequestMethod.GET)
+	@RequestMapping(value="/admin/home", method=RequestMethod.GET)
 	@Secured("ROLE_PG_HOME")
 	public ModelAndView secondAdminPage() {
-		return new ModelAndView("admin-second");
+		return new ModelAndView("admin-home");
 	}
 
 }

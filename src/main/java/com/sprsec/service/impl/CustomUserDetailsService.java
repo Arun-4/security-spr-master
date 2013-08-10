@@ -1,4 +1,4 @@
-package com.sprsec.service;
+package com.sprsec.service.impl;
 
 import java.util.ArrayList;
 import java.util.Collection;

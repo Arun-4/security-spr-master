@@ -10,6 +10,6 @@
 <body>
 <h1>Welcome page</h1>
 <p>You have successfully logged in.<br/>
-<a href="${pageContext.request.contextPath}/index.html">Home page</a><br/></p>
+<a href="${pageContext.request.contextPath}/">Home page</a><br/></p>
 </body>
 </html>

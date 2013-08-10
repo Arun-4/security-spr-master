@@ -14,6 +14,6 @@
 <h1>Moderation page</h1>
 <p>This is Moderation page. It's available for moderators.<br/>
 <a href="<c:url value="/j_spring_security_logout" />" >Logout</a> <br/>
-<a href="${pageContext.request.contextPath}/index.html">Home page</a><br/></p>
+<a href="${pageContext.request.contextPath}/">Home page</a><br/></p>
 </body>
 </html>

@@ -125,7 +125,13 @@ insert into fk_role_features(roleid,featureid,read_write_access)
 values(1,3,true)
 
 insert into fk_role_features(roleid,featureid,read_write_access) 
+values(2,1,true)
+
+insert into fk_role_features(roleid,featureid,read_write_access) 
 values(2,2,true)
+
+insert into fk_role_features(roleid,featureid,read_write_access) 
+values(3,1,true)
 
 insert into fk_role_features(roleid,featureid,read_write_access) 
 values(3,3,true)

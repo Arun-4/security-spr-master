@@ -1,4 +1,4 @@
-package com.sprsec.dao;
+package com.sprsec.dao.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,6 +9,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.stereotype.Repository;
 
+import com.sprsec.dao.UserDAO;
 import com.sprsec.model.User;
 
 @Repository
